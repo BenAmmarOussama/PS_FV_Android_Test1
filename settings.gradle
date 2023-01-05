@@ -1,0 +1,4 @@
+include ':app'
+
+include ':unityLibrary'
+project(':unityLibrary').projectDir = new File('..\\PS_FV_Unity_Test_1\\androidBuild\\unityLibrary')
